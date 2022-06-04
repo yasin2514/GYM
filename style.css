@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(img/bg.jpg);
+    background-size: 1536px 860px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.header{
+
+}
+.left{
+    /* border: 3px solid green; */
+    position: absolute;
+    top: 15px;
+    left: 80px;
+
+}
+.left img{
+    width: 60px;
+    height: 40px;
+    filter: invert(100%);
+    margin: auto;
+    display: block;
+}
+.left div{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    cursor:default;
+    
+
+    
+
+}
+.mid{
+    /* border: 3px solid rgb(47, 0, 255); */
+    width: 48%;
+    margin: 28px auto;
+    position: relative;
+
+
+}
+.navbar{
+    display: block;
+    margin: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 30px;
+    list-style: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.navbar li a:hover{
+    color: gray;
+    text-decoration: underline;
+
+
+}
+.navbar li a:active{
+    color: gray;
+    text-decoration: underline;
+
+}
+.right{
+    /* border: 3px solid rgb(128, 0, 0); */
+    position: absolute;
+    top: 31px;
+    right: 80px;
+
+
+}
+.btn{
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: black;
+    color: rgb(221, 221, 221);
+    font-size: 14px;
+    padding: 0px 10px;
+    font-weight: bold;
+    margin:1px 6px ;
+}
+.btn:hover{
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+    
+}
+.container{
+    width: 40%;
+    margin: 100px auto;
+    padding: 10px;
+}
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+
+
+}
+.container form{
+    margin:0px auto;
+    display:block;
+
+}
+.form-group{
+    width: 330px;
+    margin: auto;
+    display:block;
+
+}
+.form-group input{
+    text-align: center;
+    width: 300px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 5px 10px;
+    
+}
+#btn{
+    margin:15px auto;
+    display: block;
+}
